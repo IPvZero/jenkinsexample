@@ -18,3 +18,4 @@ jobs:
           echo "On a GH runner"
           whoami
           hostname
+          cat python_script.py
