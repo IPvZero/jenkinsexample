@@ -1,1 +1,1 @@
-print("I love Jenkins")
+print("I love Jenkins - it's so much fun!")
