@@ -6,6 +6,9 @@ jobs:
   test-job:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        
       - name: Print stuff
         run: echo "Testing this!"
 
