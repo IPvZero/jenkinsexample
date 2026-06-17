@@ -1,0 +1,20 @@
+name: Test Workflow
+
+on: push
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print stuff
+        run: echo "Testing this!"
+
+      - name: Show date
+        run: date
+
+      - name: Multiple commands
+        run: |
+          echo "Running commands"
+          echo "On a GH runner"
+          whoami
+          hostname
